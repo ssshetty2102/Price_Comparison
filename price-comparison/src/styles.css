@@ -1,0 +1,40 @@
+/* You can add custom CSS here if needed */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7fafc;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.result-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+}
+
+.link-button {
+    background-color: #4f46e5;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: #4338ca;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
